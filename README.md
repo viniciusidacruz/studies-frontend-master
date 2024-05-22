@@ -73,7 +73,23 @@ Antes de começar, você deve ter o Node.js e o npm instalados em sua máquina. 
    ```bash
    git clone git@github.com:viniciusidacruz/studies-frontend-master.git
    cd studies-frontend-master
-   yarn install && yarn dev
+
+   ## Instalar o nvm para atualizar o node na versão correta da aplicação
+
+   ## Use o curl para baixar e instalar o script do NVM Execute comando abaixo no terminal:
+   curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+
+   ## Depois de instalar o NVM, você precisa adicionar os scripts necessários ao seu arquivo de perfil do shell para poder usar o NVM. Execute o comando abaixo para carregar o NVM no seu terminal:
+   export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
+
+   ## Para verificar se o NVM foi instalado corretamente, execute o seguinte comando:
+   nvm --version
+
+   ## Com nvm instalado basta mudar para versão do node
+   nvm install Iron && nvm use
+
+   ## Rodor a aplicação
+   bun first-install
    ```
 
 ## Contribuições
