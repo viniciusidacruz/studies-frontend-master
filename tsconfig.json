@@ -19,8 +19,8 @@
       "@/*": [
         "./src/*"
       ],
-      "@view/*": [
-        "./src/view/*"
+      "@presentation/*": [
+        "src/presentation/*"
       ]
     },
 

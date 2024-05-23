@@ -5,7 +5,7 @@ import {
   CardFooter,
   CardContent,
   CardDescription,
-} from "@view/components";
+} from "@presentation/components";
 
 export const App = () => (
   <main className="h-screen w-full flex items-center justify-center">
