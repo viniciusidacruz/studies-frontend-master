@@ -4,3 +4,4 @@ export * from "./external/badge";
 export * from "./external/button";
 export * from "./external/separator";
 export * from "./external/skeleton";
+export * from "./internal/card-post";
